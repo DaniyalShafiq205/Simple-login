@@ -38,7 +38,7 @@ if (isset($_REQUEST['delete'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../fontawesome/css/all.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-  
+
 
     <title>Form</title>
 </head>
@@ -48,8 +48,7 @@ if (isset($_REQUEST['delete'])) {
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-5">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
@@ -66,7 +65,7 @@ if (isset($_REQUEST['delete'])) {
                     </div>
                 </li>
             </ul>
-            
+
         </div>
     </nav>
 
@@ -136,12 +135,12 @@ if (isset($_REQUEST['delete'])) {
 
     $conn->close();
     ?>
-
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/jquery.js"></script>
+
 
 
 </body>
